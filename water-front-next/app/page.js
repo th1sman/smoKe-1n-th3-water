@@ -1,4 +1,4 @@
-import Products from "./products/page";
+import Articles from "./articles/page";
 
 const Home = () => {
   return (
@@ -7,7 +7,7 @@ const Home = () => {
         Agua San Jose
       </h1>
       <div className="grid">
-        <Products />
+        <Articles />
       </div>
     </div>
   );
